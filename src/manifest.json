@@ -1,0 +1,18 @@
+{
+  "name": "bible",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description":"bible",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bible.cbck.or.kr/*"
+      ],
+      "all_frames": true,
+      "js": ["js/content-script.js"]
+    }
+  ],
+  "icons":{
+    "256": "icons/256.png"
+  }
+}
